@@ -1,4 +1,4 @@
-import com.sun.deploy.util.StringUtils;
+package java;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,8 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-
-import static org.mockito.internal.util.StringJoiner.join;
+import com.sun.deploy.util.StringUtils;
 
 public class LexicographicallySorter {
 
